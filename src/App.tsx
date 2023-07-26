@@ -5,8 +5,8 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        <Link to={'/login'}></Link>
-        <Link to={'/register'}></Link>
+        <Link to={'/login'}>Login</Link> | 
+        <Link to={'/register'}>Register</Link>
       </div>
     </BrowserRouter>
   )
